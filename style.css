@@ -1,0 +1,134 @@
+body {
+  font-family: arial;
+  font-size: 14px;
+  color: hsl(0, 0%, 0%);
+  background-color:rgb(255, 180, 99);
+
+}
+ h1 {
+     color:white;
+     font-family: Arial;
+     background-color: black;
+     text-align: center;
+ }
+
+p {
+    font-size: 12px;
+    font-family: arial;
+    opacity:;
+    padding: 10px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 50px;
+    background-size: 35%;
+    color: black;
+    float: left;
+    position: relative;
+    bottom:30px;
+    overflow-x:auto;
+}
+
+
+figure {
+line-height: 2em;
+text-align: left;
+}
+
+#Naruto {   /* I added a id attribute in HTML code*/
+    background-color: black;
+    color: rgb(255, 180, 99); 
+    padding: 40px;
+    text-align: center; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.Quiz {         /* I added a class attribute to my HTML code*/
+    Background-color: purple;
+    color:white;
+    
+}
+
+
+form {
+font-family: arial;
+color:white;
+}
+
+label {
+    font-family: arial;
+    color:rgb(0, 0, 0);
+}
+
+img {
+    float: inline-start;   /*Syntax: left | right | none | inline-start | inline-end*/
+    max-width: 50%;
+    height: auto;
+    position:inherit;
+    
+}
+/* another way to resize images img { height: 100px; width:100px; } */
+
+table {
+    color:black;
+    border-spacing: 10px;
+}
+
+/*To add padding on table cells*/
+tr, td {
+    padding: 15px;
+  }
+
+  /* To add padding only above the content, use the padding-top property and the others sides with the padding-bottom, padding-left, and padding-right properties:*/
+  tr, td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-bottom: 1px solid black;  /*the bottom border is red*/
+    border-top: 1px solid white;
+  }
+
+  tr, td :nth-child(odd) {      /*if i want just the tr background coloured then remove the td and put in a seperate line of code*/
+    background-color:rgb(247, 203, 122); 
+  }
+
+  tr:hover {
+      background-color: white;
+    }  /*this allows me to hover over my highlight table rows on mouse over:*/
+
+ ul {
+     list-style-type: none;
+     /* values I can choose: disc, circle, square, none.*/
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     font-weight: bold;
+     color:black;
+     }
+
+h4 {
+    background-color: black;
+    color:rgb(255, 180, 99);
+  
+}
+  
+ li a {
+    float: left;
+     display: block;
+     text-align: center;
+     padding: 5px;
+     text-decoration: none;
+     color: white;
+     background-color: black;
+ }
+
+ li a:hover {
+     background-color:grey;
+ }
+
+ span {
+    color:white;            /*span can only go on one word*/
+    font-weight: bold;        /*this is the CSS versoon putting <b>shinobi<b> or using the strong tag*/       
+    background-color: black;
+}
